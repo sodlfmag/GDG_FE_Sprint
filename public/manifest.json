@@ -1,6 +1,15 @@
 {
   "name": "Programmers Dispenser",
-  "description": "프로그래머스의 문제를 자동으로 띄워주는 확장프로그램",
+  "description": "프로그래머스의 문제를 띄워주는 확장프로그램",
+  "version": "1.0",
   "manifest_version": 3,
-  "version": "1.0.0"
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Programmers Dispenser"
+  },
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  }
 }
