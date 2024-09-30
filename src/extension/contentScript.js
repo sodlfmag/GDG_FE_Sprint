@@ -34,6 +34,13 @@ function goToNextPage() {
   return false; // 페이지 이동 실패
 }
 
+// 메시지 리스너 추가
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  if (request.action === "collectProblems") {
+    collectAllProblems();
+  }
+});
+
 // 모든 문제를 수집하는 함수
 async function collectAllProblems() {
   while (true) {
