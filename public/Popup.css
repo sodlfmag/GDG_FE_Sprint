@@ -1,3 +1,10 @@
+body {
+  width: 300px; /* 원하는 너비 설정 */
+  height: auto; /* 필요 시 높이 설정 */
+  margin: 0; /* 기본 여백 제거 */
+  padding: 10px; /* 필요 시 패딩 추가 */
+}
+
 .popup-container {
   padding: 10px;
   font-family: Arial, sans-serif;
